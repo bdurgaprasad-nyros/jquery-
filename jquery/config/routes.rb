@@ -1,14 +1,7 @@
 Jquery::Application.routes.draw do
   get "welcome/show"
   get 'welcome/autocomplete_brand_name'
-  get 'welcome/autocomplete_book_namep'
-  get 'welcome/id_element_example'
-  get "welcome/ajax_form_example"
-  get "welcome/show_the_form"
-  get "welcome/formtastic"
 
-  get 'welcome/autocomplete_brand_subtype_name'
-  get "welcome/subtype"
 
   resources :products
 
